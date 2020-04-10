@@ -73,7 +73,7 @@ button:disabled:hover {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin: 0 auto 20px auto;
-
+    color: #282C34;
 }
 
 .container {
@@ -89,6 +89,7 @@ button:disabled:hover {
     width: 48%;
     height: 36px;
     font-family: 'Montserrat', sans-serif;
+    outline: none;
 }
 
 .btnNextStepper {

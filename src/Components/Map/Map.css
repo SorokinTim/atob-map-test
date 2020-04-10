@@ -10,9 +10,21 @@
     padding-top: 10px;
 }
 
+.geocoder input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.geocoder svg {
+    fill: rgba(40, 44, 52, 0.75);
+}
+
 .mapboxgl-ctrl {
     width: 100%;
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: #282C34;
 }
 
 .main-container {
@@ -23,7 +35,7 @@
 }
 
 /**/
-.input-container {
+.element-container {
     margin: 25px 0;
     width: 100%;
     height: 100%;

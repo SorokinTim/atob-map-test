@@ -3,6 +3,7 @@ import mapboxgl from 'mapbox-gl';
 import './Map.css';
 import MapboxGeocoder from "@mapbox/mapbox-gl-geocoder";
 import StepsCounter from "./StepsCounter/StepsCounter";
+import InfoForm from "./StepsCounter/InfoForm/InfoForm";
 
 
 export default class Map extends Component {
@@ -148,7 +149,7 @@ export default class Map extends Component {
                 <div className="side-container">
                     <div className="form-container">
                         <StepsCounter>
-                            <div className="input-container">
+                            <div className="element-container">
                                 <div id={'geocoder-start'} className='geocoder'/>
                                 <div id={'geocoder-end'} className='geocoder'/>
                             </div>
